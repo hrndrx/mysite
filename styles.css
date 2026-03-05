@@ -1,0 +1,63 @@
+/* Typography */
+body {
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f7fbfd;
+  color: #17223b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Override Bootstrap primary */
+.btn-primary {
+  background-color: #1678a7;
+  border-color: #0f6a92;
+  box-shadow: 0 6px 18px rgba(22,120,167,0.12);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #0f6a92;
+  border-color: #0c536f;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  color: #0f2b44;
+  letter-spacing: 0.2px;
+}
+
+/* Hero image */
+.hero-img {
+  max-width: 320px;
+  border-radius: 18px;
+}
+
+/* About image */
+.about-img {
+  border: 6px solid rgba(22,120,167,0.06);
+}
+
+/* Cards */
+.project-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(10, 24, 48, 0.06);
+}
+
+/* Card images height */
+.project-card .card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+
+/* Spacing adjustments when Bootstrap utilities aren't enough */
+section { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+  .hero-img { max-width: 260px; margin-top: 1.25rem; }
+  .navbar-brand { font-size: 1.05rem; }
+}
